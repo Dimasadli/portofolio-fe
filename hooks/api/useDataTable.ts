@@ -11,7 +11,7 @@ import {
   SetQuery,
   QueryParamConfigMap,
 } from "use-query-params";
-import fetcher from "@portofolio-fe/services/fetcher";
+import fetcher from "@/services/fetcher/fetcher";
 import { HttpMethod } from "./url";
 import { TablePaginationConfig } from "antd/lib/table";
 import { useMemo } from "react";

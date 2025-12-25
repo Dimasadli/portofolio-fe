@@ -6,7 +6,7 @@ import {
   UseQueryOptions,
   UseQueryResult,
 } from "@tanstack/react-query";
-import fetcher from "@portofolio-fe/services/fetcher";
+import fetcher from "@/services/fetcher/fetcher";
 import { HttpMethod } from "./url";
 
 interface IUseData<T, F = unknown> {

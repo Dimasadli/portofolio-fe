@@ -1,5 +1,5 @@
 const ProfileContainer: React.FC = () => {
-  return <div></div>;
+  return <div>Profile Container</div>;
 };
 
 export default ProfileContainer;
